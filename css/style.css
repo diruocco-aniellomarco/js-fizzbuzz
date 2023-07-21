@@ -1,0 +1,33 @@
+body {
+    background-color: #083b4c;
+}
+
+.title {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.color_number {
+    background-color: #1389b2;
+}
+.color_fizz {
+    background-color: #0cd6a1;
+}
+
+.color_buzz {
+    background-color: #ffd166;
+}
+.color_fizzbuzz {
+    background-color: #f0466f;
+}
