@@ -13,32 +13,29 @@ for (let i = 1; i <= 100; i++) {
             // fizzbuzz_row.innerHTML += divBox;
             divBox.classList.add('color_fizzbuzz')
             divBox.innerHTML = 'FizzBuzz';
-            fizzbuzz_row.append(divBox);
-            
+                        
             console.log('FizzBuzz');
         }else if (i % 3 == 0) {
             // divBox = `<div class="box color_fizz">Fizz</div>`
             // fizzbuzz_row.innerHTML += divBox;
             divBox.classList.add('color_fizz')
             divBox.innerHTML = 'Fizz';
-            fizzbuzz_row.append(divBox);
-
+            
             console.log('Fizz');
         }else {
             // divBox = `<div class="box color_buzz">Buzz</div>`
             // fizzbuzz_row.innerHTML += divBox;
             divBox.classList.add('color_buzz')
             divBox.innerHTML = 'Buzz';
-            fizzbuzz_row.append(divBox);
-
+            
             console.log('Buzz');
         }
     }else {
         // fizzbuzz_row.innerHTML += divBox;
         divBox.classList.add('color_number')
         divBox.innerHTML = i;
-        fizzbuzz_row.append(divBox);
-        
+                
         console.log(i);
     }
+    fizzbuzz_row.append(divBox);
 }
